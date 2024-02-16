@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_lottie import st_lottie
@@ -14,8 +16,9 @@ def load_lottie_url(url):
 lottie_url = load_lottie_url("https://lottie.host/0c1681fb-be3d-41a9-a7ff-34dc62a7cc00/FJDEziS74b.json")
 lottie_contact = load_lottie_url("https://lottie.host/17b287ce-cdda-4e32-8332-669e99cb6ecc/fWQkoX38oH.json")
 lottie_Auto = load_lottie_url("https://lottie.host/b7c22a23-d0be-4789-b937-69f56b270b31/azRRDr4od3.json")
+lottie_cyber = load_lottie_url("https://lottie.host/1f3e40a9-cccf-4a2e-b579-593c161a62af/oB3NUJ63sD.json")
 lottie_cancer = load_lottie_url("https://lottie.host/1069f626-6944-4619-ae46-55f2cb0a314e/5F5eB4W7nI.json")
-image = Image.open("C:/Users/PREMR/Downloads/Desktop/Streamlit/Red-Dead-Redemption-2.jpg")
+# image = Image.open("C:/Users/PREMR/Downloads/Desktop/Streamlit/Red-Dead-Redemption-2.jpg")
 
 
 # def local_css(file_name):
@@ -88,6 +91,17 @@ if selected == "Projects":
         with col8:
             st.subheader("Cancer Prediction")
             st.write("Predicted Cancer using Logistic KNN and Decision-Tree")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667)")
+    with st.container():
+        
+        st.write("##")
+        col9, col10  = st.columns((1,2))
+        with col9:
+            st_lottie(lottie_cyber, height = 150)
+
+        with col10:
+            st.subheader("Attack Detection Using Autoencoders")
+            st.write("Anomoly detection using Autoencoders")
             st.markdown("[Visit Github Repo](https://github.com/prem8667)")
 
 if selected== "Contact":
