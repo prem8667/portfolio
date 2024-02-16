@@ -18,11 +18,7 @@ lottie_contact = load_lottie_url("https://lottie.host/17b287ce-cdda-4e32-8332-66
 lottie_Auto = load_lottie_url("https://lottie.host/b7c22a23-d0be-4789-b937-69f56b270b31/azRRDr4od3.json")
 lottie_cyber = load_lottie_url("https://lottie.host/1f3e40a9-cccf-4a2e-b579-593c161a62af/oB3NUJ63sD.json")
 lottie_cancer = load_lottie_url("https://lottie.host/1069f626-6944-4619-ae46-55f2cb0a314e/5F5eB4W7nI.json")
-<<<<<<< HEAD
-# image = Image.open("C:/Users/PREMR/Downloads/Desktop/Streamlit/Red-Dead-Redemption-2.jpg")
-=======
-#image = Image.open("C:/Users/PREMR/Downloads/Desktop/Streamlit/Red-Dead-Redemption-2.jpg")
->>>>>>> 99e0644964a72233ee07e217aea13694e7de038e
+
 
 
 # def local_css(file_name):
