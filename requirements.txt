@@ -1,9 +1,4 @@
 streamlit
 streamlit_option_menu
 streamlit_lottie
-
-<<<<<<< HEAD
 requests
-=======
-requests
->>>>>>> 99e0644964a72233ee07e217aea13694e7de038e
