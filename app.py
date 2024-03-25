@@ -18,6 +18,12 @@ lottie_contact = load_lottie_url("https://lottie.host/17b287ce-cdda-4e32-8332-66
 lottie_Auto = load_lottie_url("https://lottie.host/b7c22a23-d0be-4789-b937-69f56b270b31/azRRDr4od3.json")
 lottie_cyber = load_lottie_url("https://lottie.host/1f3e40a9-cccf-4a2e-b579-593c161a62af/oB3NUJ63sD.json")
 lottie_cancer = load_lottie_url("https://lottie.host/1069f626-6944-4619-ae46-55f2cb0a314e/5F5eB4W7nI.json")
+lottie_Chatbot = load_lottie_url("https://lottie.host/1adade21-2016-46af-8fdd-528c28bc6721/geW1l6x5pd.json")
+lottie_sentiment = load_lottie_url("https://lottie.host/1d5412d0-0740-4441-b6ba-d75134deb657/AkXR9HT9EK.json")
+lottie_qa = load_lottie_url("https://lottie.host/adddee58-687c-48e9-a78c-844be18b8857/6dfo9OLIQz.json")
+lottie_blog = load_lottie_url("https://lottie.host/a1ffcf82-6fbd-467f-8595-fd7b210db647/mfZ9GjqBBu.json")
+lottie_newsresearch = load_lottie_url("https://lottie.host/1e1fc41e-53df-4f62-9200-a7da5a3bc8b4/8tpjMFJMfb.json")
+
 
 
 
@@ -70,39 +76,97 @@ if selected == "About":
             Led various personal projects, including a restaurant chatbot, deep learning-based face recognition, and contributions to conversational AI and image recognition projects.""")
             
 if selected == "Projects":
+
     with st.container():
         st.header("My Projects")
         st.write("##")
         col5, col6  = st.columns((1,2))
         with col5:
-            st_lottie(lottie_Auto, height = 150)
+            st_lottie(lottie_Chatbot, height = 150)
             # st.image(image)
         with col6:
+            st.subheader("Chatbot-for-Ecommerce-using-PALM")
+            st.write("Built a chatbot for E-commerce using PALM, Langchain")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/Chatbot-for-Ecommerce-using-PALM)")
+
+    with st.container():
+        st.write("##")
+        col6, col7  = st.columns((1,2))
+        with col6:
+            st_lottie(lottie_sentiment, height = 150)
+            # st.image(image)
+        with col7:
+            st.subheader("Sentiment Analysis Using Bert")
+            st.write("Built a sentiment analysys for reviews of restaurent using BERT")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/BERT-Sentiment)")
+
+    with st.container():
+        st.write("##")
+        col8, col9  = st.columns((1,2))
+        with col8:
+            st_lottie(lottie_newsresearch, height = 150)
+            # st.image(image)
+        with col9:
+            st.subheader("News Research tool using OpenAI LLM")
+            st.write("Built a News research tool using OpenAI")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/News-research-tool-using-LLM)")
+
+    with st.container():
+        st.write("##")
+        col10, col11  = st.columns((1,2))
+        with col10:
+            st_lottie(lottie_qa, height = 150)
+            # st.image(image)
+        with col11:
+            st.subheader("Conversational-Q-A-Chatbot")
+            st.write("Built a Conversational Q-A  Chatbot using OpenAI")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/Conversational-Q-A-Chatbot)")
+
+    with st.container():
+        st.write("##")
+        col12, col3  = st.columns((1,2))
+        with col12:
+            st_lottie(lottie_Auto, height = 150)
+            # st.image(image)
+        with col13:
+            st.subheader("Blog-Generation-Using-Langchain")
+            st.write("Built a Blog generation webpage using Langchain")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/Blog-Generation-Using-Langchain)")
+
+    
+
+    with st.container():
+        st.write("##")
+        col14, col15  = st.columns((1,2))
+        with col14:
+            st_lottie(lottie_Auto, height = 150)
+            # st.image(image)
+        with col15:
             st.subheader("Automobile Price prediction")
             st.write("Predicted prices of automobile usinh different ML algorithms")
-            st.markdown("[Visit Github Repo](https://github.com/prem8667)")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/Automobile-Price-Prediction)")
     with st.container():
         
         st.write("##")
-        col7, col8  = st.columns((1,2))
-        with col7:
+        col16, col17  = st.columns((1,2))
+        with col16:
             st_lottie(lottie_cancer, height = 150)
 
-        with col8:
+        with col17:
             st.subheader("Cancer Prediction")
             st.write("Predicted Cancer using Logistic KNN and Decision-Tree")
-            st.markdown("[Visit Github Repo](https://github.com/prem8667)")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/Cancer-prediction-using-Logistic-KNN-and-Decision-Tree)")
     with st.container():
         
         st.write("##")
-        col9, col10  = st.columns((1,2))
-        with col9:
+        col18, col19  = st.columns((1,2))
+        with col18:
             st_lottie(lottie_cyber, height = 150)
 
-        with col10:
+        with col19:
             st.subheader("Attack Detection Using Autoencoders")
             st.write("Anomoly detection using Autoencoders")
-            st.markdown("[Visit Github Repo](https://github.com/prem8667)")
+            st.markdown("[Visit Github Repo](https://github.com/prem8667/Anomaly-detection-using-Autoencoders)")
 
 if selected== "Contact":
     st.header("Get in touch!")
