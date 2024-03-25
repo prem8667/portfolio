@@ -124,7 +124,7 @@ if selected == "Projects":
 
     with st.container():
         st.write("##")
-        col12, col3  = st.columns((1,2))
+        col12, col13  = st.columns((1,2))
         with col12:
             st_lottie(lottie_Auto, height = 150)
             # st.image(image)
