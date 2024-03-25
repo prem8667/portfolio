@@ -126,7 +126,7 @@ if selected == "Projects":
         st.write("##")
         col12, col13  = st.columns((1,2))
         with col12:
-            st_lottie(lottie_Auto, height = 150)
+            st_lottie(lottie_blog, height = 150)
             # st.image(image)
         with col13:
             st.subheader("Blog-Generation-Using-Langchain")
