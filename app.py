@@ -56,7 +56,9 @@ with st.container():
             st_lottie(lottie_phn,  height=100, width =100)
         
 with st.container(): 
-        colu6, colu7, colu8 = st.columns([0.5,0.7,0.5])
+        column, colu6, colu7, colu8 = st.columns([0.02,0.5,0.7,0.5])
+        with column:
+            pass
         
         
         with colu6:
