@@ -44,7 +44,7 @@ with st.container():
         with colu2:
             st.image(image, width = 200)
 with st.container(): 
-        columnsp, colu3, colu4, colu5 = st.columns([1,0.5,0.5,0.5])
+        columnsp, colu3, colu4, colu5 = st.columns([1,0.5,1,0.5])
         with columnsp:
             pass
         with colu3:
@@ -57,15 +57,15 @@ with st.container():
             st_lottie(lottie_phn, height=100, width =70)
         
 with st.container(): 
-        columnspr, colu6, colu7, colu8 = st.columns([1,0.5,0.5,0.5])
+        columnspr, colu6, colu7, colu8 = st.columns([1,0.5,1,0.5])
         with columnspr:
             pass
         
-        with colu4:
+        with colu6:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
       
-        with colu6:
+        with colu7:
             st.write("Premrasakonda@gmail.com")
        
         with colu8:
