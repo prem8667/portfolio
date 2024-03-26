@@ -44,7 +44,7 @@ with st.container():
         with colu2:
             st.image(image, width = 200)
 with st.container():
-        columnsp, colu3, colu4, colu5, colu6, colu7, colu8 = st.columns([2,0.5,2,0.5,3,0.5,2])
+        columnsp, colu3, colu4, colu5, colu6, colu7, colu8 = st.columns([2,0.5,1,0.5,2,0.5,1.5])
         with columnsp:
             pass
         with colu3:
