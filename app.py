@@ -38,9 +38,9 @@ with st.container():
         with colu1:
             st.write("##")
             st.subheader("Hey Guys  :wave:")
-            st.title("My Portfolio Website")
-            st.write(""" Prem Kumar Rasakonda""")
-            st.write("[Read More](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
+            st.title("Prem Kumar Rasakonda")
+            # st.write(""" Prem Kumar Rasakonda""")
+            # st.write("[Read More](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
         with colu2:
             st.image(image, width = 200)
 with st.container(): 
@@ -96,10 +96,14 @@ if selected == "About":
         with col4:
             st.header("""
             Expereince:
-            Graduated Research Assistant at TAMUC, 
-            co-authoring "Evaluating Unbalanced Network Data for Attack Detection" with extensive analysis. 
-            Professional experience includes a Data Science Intern Trainee role at BEPEC SOLUTION and an Assistant Systems Engineer position at Tata Consultancy Services. 
-            Led various personal projects, including a restaurant chatbot, deep learning-based face recognition, and contributions to conversational AI and image recognition projects.""")
+            AI Software Engineer | BEPEC SOLUTION - Bangalore, India (Jan 2023 - Feb 2024)
+            Developed and refined a semantic segmentation model for autonomous driving. Employed PyTorch, U-Net, and FCN to achieve 90% accuracy in identifying road scene elements.
+
+            Graduated Research Assistant | TAMUC - Commerce, Texas (Jan 2023 - Present)
+            Researched network attack detection using GNNs, CNNs, and various ML techniques. Achieved 99.6% accuracy in zero-day attack detection. Published results in SNTA 2023.
+
+            Assistant Systems Engineer | Tata Consultancy Services (TCS) - Chennai, India (April 2021- July 2022)
+            Contributed to seamless website performance for client AIG by utilizing SQL, C++, and Python for database troubleshooting and code debugging.""")
             
 if selected == "Projects":
 
