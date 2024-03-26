@@ -12,7 +12,7 @@ def load_lottie_url(url):
     if r.status_code != 200:
         return None
     return r.json()
-image = Image.open('IMG_20201014_182146_441.jpg') 
+image = Image.open('IMG_20201014_182146_441.jpg', width=100) 
 lottie_url = load_lottie_url("https://lottie.host/0c1681fb-be3d-41a9-a7ff-34dc62a7cc00/FJDEziS74b.json")
 lottie_contact = load_lottie_url("https://lottie.host/17b287ce-cdda-4e32-8332-669e99cb6ecc/fWQkoX38oH.json")
 lottie_Auto = load_lottie_url("https://lottie.host/b7c22a23-d0be-4789-b937-69f56b270b31/azRRDr4od3.json")
