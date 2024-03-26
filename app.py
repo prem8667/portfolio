@@ -42,7 +42,7 @@ with st.container():
             st.write(""" Prem Kumar Rasakonda""")
             st.write("[Read More](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
         with colu2:
-            st.image(image, width=100)
+            st.image(image)
 with st.container():
         colu3, colu4, colu5, colu6, colu7, colu8 = st.columns(6)
         with colu3:
