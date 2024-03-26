@@ -44,9 +44,9 @@ with st.container():
         with colu2:
             st.image(image, width = 200)
 with st.container():
-        colu3, colu4, colu5, colu6, colu7, colu8 = st.columns(6)
+        colu3, colu4, colu5, colu6, colu7, colu8 = st.columns(1,2,1,3,1,2)
         with colu3:
-            st_lottie(lottie_linkedin, height=30, width=30)
+            st_lottie(lottie_linkedin, height=50, width=50)
         with colu4:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
@@ -55,7 +55,7 @@ with st.container():
         with colu6:
             st.write("Premrasakonda@gmail.com")
         with colu7:
-            st_lottie(lottie_phn, height=30, width=30)
+            st_lottie(lottie_phn, height=50, width=50)
         with colu8:
             st.write("+1 (945)900-3469")
 
