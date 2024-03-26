@@ -51,20 +51,17 @@ with st.container():
             st_lottie(lottie_linkedin, height=100, width =70)
         with colu4:
             st.write("##")
-            
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
         with colu5:
             st_lottie(lottie_email, height=100, width =70)
         with colu6:
             st.write("##")
-            
             st.write("Premrasakonda@gmail.com")
         with colu7:
             st_lottie(lottie_phn, height=100, width =70)
         with colu8:
             st.write("##")
-            
             st.write("+1 (945)900-3469")
 
 
