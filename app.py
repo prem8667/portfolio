@@ -47,13 +47,13 @@ with st.container():
         colu3, colu4, colu5 = st.columns([0.5,0.6,0.5])
         
         with colu3:
-            st_lottie(lottie_linkedin, height=50, width =70)
+            st_lottie(lottie_linkedin, height=30, width =70)
             
         with colu4:
-            st_lottie(lottie_email, height=50, width =70)
+            st_lottie(lottie_email, height=30, width =70)
        
         with colu5:
-            st_lottie(lottie_phn, height=50, width =70)
+            st_lottie(lottie_phn, height=30, width =70)
         
 with st.container(): 
         colu6, colu7, colu8 = st.columns([0.5,0.7,0.5])
