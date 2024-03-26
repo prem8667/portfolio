@@ -48,13 +48,13 @@ with st.container():
         with columnsp:
             pass
         with colu3:
-            st_lottie(lottie_linkedin, height=100, width =70)
+            st_lottie(lottie_linkedin, height=50, width =70)
             
         with colu4:
-            st_lottie(lottie_email, height=100, width =70)
+            st_lottie(lottie_email, height=50, width =70)
        
         with colu5:
-            st_lottie(lottie_phn, height=100, width =70)
+            st_lottie(lottie_phn, height=50, width =70)
         
 with st.container(): 
         columnspr, colu6, colu7, colu8 = st.columns([1,0.5,0.8,0.5])
