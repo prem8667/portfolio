@@ -44,9 +44,8 @@ with st.container():
         with colu2:
             st.image(image, width = 200)
 with st.container(): 
-        columnsp, colu3, colu4, colu5 = st.columns([0.8,0.5,0.7,0.5])
-        with columnsp:
-            pass
+        colu3, colu4, colu5 = st.columns([0.5,0.7,0.5])
+        
         with colu3:
             st_lottie(lottie_linkedin, height=50, width =70)
             
@@ -57,9 +56,8 @@ with st.container():
             st_lottie(lottie_phn, height=50, width =70)
         
 with st.container(): 
-        columnspr, colu6, colu7, colu8 = st.columns([0.7,0.5,0.8,0.5])
-        with columnspr:
-            pass
+        colu6, colu7, colu8 = st.columns([0.5,0.7,0.5])
+        
         
         with colu6:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
