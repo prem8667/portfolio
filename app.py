@@ -39,7 +39,7 @@ with st.container():
             st.write(""" Prem Kumar Rasakonda""")
             st.write("[Read More](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
         with colu2:
-            st_lottie(lottie_url)
+            pass
 with st.container():
         colu3, colu4, colu5, colu6, colu7, colu8 = st.columns(6)
         with colu3:
@@ -47,13 +47,13 @@ with st.container():
         with colu4:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
-        with colu3:
+        with colu5:
             pass
-        with colu4:
+        with colu6:
             st.write("Premrasakonda@gmail.com")
-        with colu3:
+        with colu7:
             pass
-        with colu4:
+        with colu8:
             st.write("+1 (945)900-3469")
 
 
