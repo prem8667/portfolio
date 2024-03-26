@@ -51,7 +51,7 @@ with st.container():
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
         with colu5:
-            st_lottie(lottie_email, height=30, width=30)
+            st_lottie(lottie_email, height=50, width=50)
         with colu6:
             st.write("Premrasakonda@gmail.com")
         with colu7:
