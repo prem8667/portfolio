@@ -44,24 +44,31 @@ with st.container():
         with colu2:
             st.image(image, width = 200)
 with st.container(): 
-        columnsp, colu3, colu4, colu5, colu6, colu7, colu8 = st.columns([1,0.5,0.5,0.5,1.5,0.5,1])
+        columnsp, colu3, colu4, colu5 = st.columns([1,0.5,0.5,0.5])
         with columnsp:
             pass
         with colu3:
             st_lottie(lottie_linkedin, height=100, width =70)
+            
         with colu4:
-            st.write("##")
+            st_lottie(lottie_email, height=100, width =70)
+       
+        with colu5:
+            st_lottie(lottie_phn, height=100, width =70)
+        
+with st.container(): 
+        columnspr, colu6, colu7, colu8 = st.columns([1,0.5,0.5,0.5])
+        with columnspr:
+            pass
+        
+        with colu4:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
-        with colu5:
-            st_lottie(lottie_email, height=100, width =70)
+      
         with colu6:
-            st.write("##")
             st.write("Premrasakonda@gmail.com")
-        with colu7:
-            st_lottie(lottie_phn, height=100, width =70)
+       
         with colu8:
-            st.write("##")
             st.write("+1 (945)900-3469")
 
 
