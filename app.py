@@ -46,16 +46,16 @@ with st.container():
 with st.container():
         colu3, colu4, colu5, colu6, colu7, colu8 = st.columns([1,2,1,3,1,2])
         with colu3:
-            st_lottie(lottie_linkedin, height=30, width =30)
+            st_lottie(lottie_linkedin, height=40, width =40)
         with colu4:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
         with colu5:
-            st_lottie(lottie_email, height=30, width =30)
+            st_lottie(lottie_email, height=40, width =40)
         with colu6:
             st.write("Premrasakonda@gmail.com")
         with colu7:
-            st_lottie(lottie_phn, height=30, width =30)
+            st_lottie(lottie_phn, height=40, width =40)
         with colu8:
             st.write("+1 (945)900-3469")
 
