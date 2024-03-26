@@ -60,11 +60,11 @@ with st.container():
         
         
         with colu6:
-            st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
+            st.write("[     Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
       
         with colu7:
-            st.write("Premrasakonda@gmail.com")
+            st.write("   Premrasakonda@gmail.com")
        
         with colu8:
             st.write("+1 (945)900-3469")
