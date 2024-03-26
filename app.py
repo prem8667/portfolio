@@ -43,16 +43,16 @@ with st.container():
 with st.container():
         colu3, colu4, colu5, colu6, colu7, colu8 = st.columns(6)
         with colu3:
-            
+            pass
         with colu4:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
         with colu3:
-            
+            pass
         with colu4:
             st.write("Premrasakonda@gmail.com")
         with colu3:
-            
+            pass
         with colu4:
             st.write("+1 (945)900-3469")
 
