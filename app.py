@@ -44,7 +44,7 @@ with st.container():
         with colu2:
             st.image(image, width = 200)
 with st.container():
-        colu3, colu4, colu5, colu6, colu7, colu8 = st.columns([1,2,1,3,1,2])
+        colu3, colu4, colu5, colu6, colu7, colu8 = st.columns([0.5,2,0.5,3,0.5,2])
         with colu3:
             st_lottie(lottie_linkedin, height=40, width =40)
         with colu4:
