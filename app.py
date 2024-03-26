@@ -30,12 +30,33 @@ lottie_newsresearch = load_lottie_url("https://lottie.host/1e1fc41e-53df-4f62-92
 # def local_css(file_name):
 #     with open(file_name) as f:
 #         st.markdown
+with st.container():
+        colu1, colu2 = st.columns(2)
+        with colu1:
+            st.write("##")
+            st.subheader("Hey Guys  :wave:")
+            st.title("My Portfolio Website")
+            st.write(""" Prem Kumar Rasakonda""")
+            st.write("[Read More](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
+        with colu2:
+            st_lottie(lottie_url)
+with st.container():
+        colu3, colu4, colu5, colu6, colu7, colu8 = st.columns(6)
+        with colu3:
+            
+        with colu4:
+            st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
+            
+        with colu3:
+            
+        with colu4:
+            st.write("Premrasakonda@gmail.com")
+        with colu3:
+            
+        with colu4:
+            st.write("+1 (945)900-3469")
 
-st.write("##")
-st.subheader("Hey Guys  :wave:")
-st.title("My Portfolio Website")
-st.write(""" Prem Kumar Rasakonda""")
-st.write("[Read More](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
+
 st.write("___")
 with st.container():
     selected = option_menu(
