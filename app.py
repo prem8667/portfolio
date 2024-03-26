@@ -12,7 +12,7 @@ def load_lottie_url(url):
     if r.status_code != 200:
         return None
     return r.json()
-
+image = Image.open('IMG_20201014_182146_441.jpg') 
 lottie_url = load_lottie_url("https://lottie.host/0c1681fb-be3d-41a9-a7ff-34dc62a7cc00/FJDEziS74b.json")
 lottie_contact = load_lottie_url("https://lottie.host/17b287ce-cdda-4e32-8332-669e99cb6ecc/fWQkoX38oH.json")
 lottie_Auto = load_lottie_url("https://lottie.host/b7c22a23-d0be-4789-b937-69f56b270b31/azRRDr4od3.json")
@@ -23,6 +23,9 @@ lottie_sentiment = load_lottie_url("https://lottie.host/1d5412d0-0740-4441-b6ba-
 lottie_qa = load_lottie_url("https://lottie.host/adddee58-687c-48e9-a78c-844be18b8857/6dfo9OLIQz.json")
 lottie_blog = load_lottie_url("https://lottie.host/a1ffcf82-6fbd-467f-8595-fd7b210db647/mfZ9GjqBBu.json")
 lottie_newsresearch = load_lottie_url("https://lottie.host/1e1fc41e-53df-4f62-9200-a7da5a3bc8b4/8tpjMFJMfb.json")
+lottie_linkedin = load_lottie_url("https://lottie.host/ba1892ee-ed64-432a-ad04-4fc25435435b/zA5wtkxal0.json")
+lottie_email = load_lottie_url("https://lottie.host/858252e7-bdce-4ace-a3a0-d86d1d28aa28/gnHmk0Ip0V.json")
+lottie_phn = load_lottie_url("https://lottie.host/d216b690-b992-459c-9d99-6b373c3e06fb/JpXSt0i0eG.json")
 
 
 
@@ -39,20 +42,20 @@ with st.container():
             st.write(""" Prem Kumar Rasakonda""")
             st.write("[Read More](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
         with colu2:
-            pass
+            st.image(image)
 with st.container():
         colu3, colu4, colu5, colu6, colu7, colu8 = st.columns(6)
         with colu3:
-            pass
+            st_lottie(lottie_linkedin)
         with colu4:
             st.write("[Linkedin](https://www.linkedin.com/in/prem-kumar-rasakonda-b54046177/)")
             
         with colu5:
-            pass
+            st_lottie(lottie_email)
         with colu6:
             st.write("Premrasakonda@gmail.com")
         with colu7:
-            pass
+            st_lottie(lottie_phn)
         with colu8:
             st.write("+1 (945)900-3469")
 
