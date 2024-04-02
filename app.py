@@ -88,25 +88,31 @@ if selected == "About":
             st.write("##")
             st.subheader("I am Prem Kumar Rasakonda")
             st.title("Graduate from Texas A&M University - Commerce")
+            st.subheader("""
+            Education:MASTER OF SCIENCE (M.S.) IN COMPUTER SCIENCE at Texas A&M University-Commerce Aug  2022 to May 2024
+            Graduate Research Assistant (Published a Journal Evaluating Unbalanced Network Data for Attack Detection )
+            Specialization: Artificial Intelligence, Data analysis and Visualization.
+
+        """)
         with col2:
             st_lottie(lottie_url)
     st.write("___")
 
     with st.container():
-        col3, col4 = st.columns(2)
-        with col3:
-            st.subheader("""
-            Education:
-            MASTER OF SCIENCE (M.S.) IN 
-            COMPUTER SCIENCE at 
-            Texas A&M University-Commerce
-            Aug  2022 to May 2024
-        """)
+        col4 = st.columns(1)
+        # with col3:
+        #     st.subheader("""
+        #     Education:
+        #     MASTER OF SCIENCE (M.S.) IN 
+        #     COMPUTER SCIENCE at 
+        #     Texas A&M University-Commerce
+        #     Aug  2022 to May 2024
+        # """)
             
         with col4:
             st.header("""
-            Expereince:
-            •	Artificial Intelligence Intern at Radical AI – New York,  USA                                                                                  March 2024 – Present
+Expereince:
+•	Artificial Intelligence Intern at Radical AI – New York,  USA                                                                                  March 2024 – Present
 •	Designed and deployed AI applications using cutting-edge frameworks (OpenAI Assistant API, Google Gemini), honed prompt engineering skills, and optimized data for generative AI models.
 •	Contributed to innovative projects (ReX, Sky, Kai) in personalized education, career coaching, and AI-powered teaching assistance, showcasing breadth in AI applications.
 •	Data Science Intern at Kairos Technologies- Dallas, Texas                                                                                     Oct 2022 – March 2023
