@@ -99,15 +99,7 @@ if selected == "About":
     st.write("___")
 
     with st.container():
-        col4 = st.columns(1)
-        # with col3:
-        #     st.subheader("""
-        #     Education:
-        #     MASTER OF SCIENCE (M.S.) IN 
-        #     COMPUTER SCIENCE at 
-        #     Texas A&M University-Commerce
-        #     Aug  2022 to May 2024
-        # """)
+        col4, col3 = st.columns(9, 0.1)
             
         with col4:
             st.header("""
@@ -130,6 +122,8 @@ if selected == "About":
             •	Developed data visualizations in Power BI, communicating complex findings and trends to stakeholders effectively.
             •	Employed feature engineering techniques and basic ML algorithms (e.g., decision trees, linear regression) for initial pattern discovery and predictive modeling.
             """)
+        with col3:
+            pass
             
 if selected == "Projects":
 
