@@ -89,7 +89,7 @@ if selected == "About":
             st.subheader("I am Prem Kumar Rasakonda")
             st.title("Graduate from Texas A&M University - Commerce")
             st.subheader("""
-            Education:MASTER OF SCIENCE (M.S.) IN COMPUTER SCIENCE at Texas A&M University-Commerce Aug  2022 to May 2024
+            Education: MASTER OF SCIENCE (M.S.) IN COMPUTER SCIENCE at Texas A&M University-Commerce Aug  2022 to May 2024
             Graduate Research Assistant (Published a Journal Evaluating Unbalanced Network Data for Attack Detection )
             Specialization: Artificial Intelligence, Data analysis and Visualization.
 
