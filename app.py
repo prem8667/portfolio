@@ -99,7 +99,7 @@ if selected == "About":
     st.write("___")
 
     with st.container():
-        col4, col3 = st.columns(9, 0.1)
+        col4, col3= st.columns([9, 0.1])
             
         with col4:
             st.header("""
