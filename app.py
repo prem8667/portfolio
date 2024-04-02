@@ -104,31 +104,41 @@ if selected == "About":
             
         with col4:
             st.title("Expereince:")
-            st.header("""
-            Artificial Intelligence Intern at Radical AI – New York,  USA        March 2024 – Present
-            •	Designed and deployed AI applications using cutting-edge frameworks (OpenAI Assistant API, Google Gemini), honed prompt engineering skills, and optimized data for generative AI models.
-            •	Contributed to innovative projects (ReX, Sky, Kai) in personalized education, career coaching, and AI-powered teaching assistance, showcasing breadth in AI applications. """)
+            st.subheader("""
+            Artificial Intelligence Intern at Radical AI – New York,  USA        March 2024 – Present""")
+            st.write("
+            •	Designed and deployed AI applications using cutting-edge frameworks (OpenAI Assistant API, Google Gemini), honed prompt engineering skills, and optimized data for generative AI models.")
+            st.write("
+            •	Contributed to innovative projects (ReX, Sky, Kai) in personalized education, career coaching, and AI-powered teaching assistance, showcasing breadth in AI applications. ")
             st.write("___")
-            st.header("""
-            Data Science Intern at Kairos Technologies- Dallas, Texas            Oct 2022 – March 2023
-            •	Preprocessed and analyzed large datasets using Python libraries (e.g., Pandas, NumPy, NLTK), extracting meaningful insights through visualization techniques.
-            •	Developed sentiment analysis models using machine learning algorithms (e.g., Naive Bayes, SVM) to classify customer feedback, aiding in decision-making.""")
+            st.subheader("""
+            Data Science Intern at Kairos Technologies- Dallas, Texas            Oct 2022 – March 2023""")
+            st.write("
+            •	Preprocessed and analyzed large datasets using Python libraries (e.g., Pandas, NumPy, NLTK), extracting meaningful insights through visualization techniques.")
+            st.write("
+            •	Developed sentiment analysis models using machine learning algorithms (e.g., Naive Bayes, SVM) to classify customer feedback, aiding in decision-making.")
             st.write("___")
-            st.header("""
-            Machine Learning Intern at BEPEC SOLUTION - Bangalore, India          Feb 2023 -Feb 2024
-            •	Utilized machine learning algorithms like Random Forest, Gradient Boosting, and SVM for yield estimation in crop production. Conducted detailed analysis and achieved significant predictive results.
-            •	Developed a high-accuracy semantic segmentation model for autonomous driving using PyTorch and CNNs like U-Net and FCN, achieving 90% accuracy on datasets like Cityscapes and KITTI. Integrated CRFs for refined segmentation masks.""") 
+            st.subheader("""
+            Machine Learning Intern at BEPEC SOLUTION - Bangalore, India          Feb 2023 -Feb 2024""")
+            st.write("
+            •	Utilized machine learning algorithms like Random Forest, Gradient Boosting, and SVM for yield estimation in crop production. Conducted detailed analysis and achieved significant predictive results.")
+            st.write("
+            •	Developed a high-accuracy semantic segmentation model for autonomous driving using PyTorch and CNNs like U-Net and FCN, achieving 90% accuracy on datasets like Cityscapes and KITTI. Integrated CRFs for refined segmentation masks.") 
             st.write("___")
-            st.header("""
-            Assistant Systems Engineer: Tata Consultancy Services (TCS) - [Chennai, India]                                                   
+            st.subheader("""
+            Assistant Systems Engineer: Tata Consultancy Services (TCS) - [Chennai, India] """)
+            st.subheader("""
             Assistant Systems Engineer                                            Jan 2021 – Sep 2021                                                                                                                       
-            •	Debugged complex code (C#, Python), optimized SQL queries, and streamlined CI/CD pipelines to improve system performance and reliability for a client website.
-            •	Implemented performance enhancements, resolved database integrity issues, and proactively addressed code vulnerabilities to maintain system stability.
+            •	Debugged complex code (C#, Python), optimized SQL queries, and streamlined CI/CD pipelines to improve system performance and reliability for a client website.""")
+            st.write("
+            •	Implemented performance enhancements, resolved database integrity issues, and proactively addressed code vulnerabilities to maintain system stability.")
+            st.subheader("""
             Data Engineer                                                        Sep 2021 – July 2022
-            •	Cleaned and transformed raw client data using Python libraries (e.g., Pandas, NumPy) for quality assurance and downstream analysis.
-            •	Developed data visualizations in Power BI, communicating complex findings and trends to stakeholders effectively.
-            •	Employed feature engineering techniques and basic ML algorithms (e.g., decision trees, linear regression) for initial pattern discovery and predictive modeling.
-            """)
+            •	Cleaned and transformed raw client data using Python libraries (e.g., Pandas, NumPy) for quality assurance and downstream analysis.""")
+            st.write("
+            •	Developed data visualizations in Power BI, communicating complex findings and trends to stakeholders effectively.")
+            st.write("
+            •	Employed feature engineering techniques and basic ML algorithms (e.g., decision trees, linear regression) for initial pattern discovery and predictive modeling.")
         with col3:
             pass
             
